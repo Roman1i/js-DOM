@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+.eventsBlock {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 12px;
+}
+
+.event {
+    padding: 20px;
+    width: auto;
+    border: 1px solid grey;
+    border-radius: 15px;
+}
+
+.eventFull {
+    background-color: rgb(255, 97, 97);
+}
+
+.eventSigned {
+    background-color: rgb(128, 255, 128);
+}
+
+button {
+    padding: 10px;
+}
+
+.signBtn {
+    background-color: green;
+    color: white;
+}
+
+.cancelBtn {
+    background-color: red;
+    color: white;
+}
